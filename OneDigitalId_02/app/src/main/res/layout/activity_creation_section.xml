@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creation_SectionActivity">
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="463dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/one_digital_id_15"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/createodicard"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="@color/purple"
+                android:clickable="true"
+                android:drawablePadding="2sp"
+                android:focusable="true"
+                android:padding="8dp"
+                android:text="@string/create_your_card"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="90dp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/viewcarddgvsnbutton"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="@color/purple"
+                android:clickable="true"
+                android:drawablePadding="2sp"
+                android:focusable="true"
+                android:onClick="openActivityVC"
+                android:padding="8dp"
+                android:text="@string/view_card"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="@color/purple"
+                android:clickable="true"
+                android:drawablePadding="2sp"
+                android:focusable="true"
+                android:padding="8dp"
+                android:text="@string/update_info"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/viewcardinfobutton"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="@color/purple"
+                android:clickable="true"
+                android:drawablePadding="2sp"
+                android:focusable="true"
+                android:onClick="openActivityVCI"
+                android:padding="8dp"
+                android:text="@string/view_card_info"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/cheakstetusbutton"
+                android:layout_width="300dp"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="@color/purple"
+                android:clickable="true"
+                android:drawablePadding="2sp"
+                android:focusable="true"
+                android:onClick="openActivityCS"
+                android:padding="8dp"
+                android:text="@string/check_status"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                app:cornerRadius="20dp"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        android:text="@string/creation_page"
+        android:textColor="#8692f7"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck,TextContrastCheck"
+        tools:textAlignment="center"
+        tools:textSize="48sp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

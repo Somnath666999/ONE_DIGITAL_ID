@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OneDigitalId"
+        tools:targetApi="31">
+        <activity
+            android:name=".UserDetails"
+            android:exported="true"
+            android:parentActivityName=".Admin_Request">
+        </activity>
+        <activity
+            android:name=".UserStetus"
+            android:exported="true"
+            android:parentActivityName=".creation_SectionActivity" />
+        <activity
+            android:name=".Admin_Request"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Log_In"
+            android:exported="true"
+            android:parentActivityName=".Admin_Request" />
+        <activity
+            android:name=".View_Card"
+            android:exported="true"
+            android:parentActivityName=".creation_SectionActivity" />
+        <activity
+            android:name=".View_Card_Info"
+            android:exported="true"
+            android:parentActivityName=".creation_SectionActivity" />
+        <activity
+            android:name=".Create_ODI_Card"
+            android:exported="true"
+            android:parentActivityName=".creation_SectionActivity">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Officer_Profile"
+            android:exported="true"
+            android:parentActivityName=".Officer_LogIn_Activity" />
+        <activity
+            android:name=".creation_SectionActivity"
+            android:exported="true"
+            android:parentActivityName=".Login_User" />
+        <activity
+            android:name=".Officer_LogIn_Activity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RegistationActivity"
+            android:exported="true"
+            android:parentActivityName=".Login_User" />
+        <activity
+            android:name=".Login_User"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

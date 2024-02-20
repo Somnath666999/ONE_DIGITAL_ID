@@ -1,0 +1,83 @@
+<resources>
+    <string name="app_name">One Digital Id</string>
+    <string name="imageLogo">imageLogo</string>
+    <string name="user_log_in">User Log In</string>
+    <string name="user_login">User Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="not_yet_registered_signup_now">Not yet registered? SignUp Now</string>
+    <string name="registration">Registration</string>
+    <string name="username">Username</string>
+    <string name="full_name">Full Name</string>
+    <string name="date_of_birth">D_O_B</string>
+    <string name="phone_no">Ph.No</string>
+    <string name="submit">SUBMIT</string>
+    <string name="user_section">User Section</string>
+    <string name="admin_section">Admin Section</string>
+    <string name="officer_section">Officer Section</string>
+    <string name="creation_page">Creation Page</string>
+    <string name="create_your_card">Create Your Card</string>
+    <string name="view_card">View Card</string>
+    <string name="view_card_info">View Card Info</string>
+    <string name="check_status">Check Status</string>
+    <string name="update_info">Update Info</string>
+    <string name="officer_login">Officer LogIn</string>
+    <string name="officer_name">Officer_Name</string>
+    <string name="todo">TODO</string>
+    <string name="department">Department</string>
+    <string name="scan_the_qr">Scan the QR</string>
+    <string name="officer_profile">Officer Profile</string>
+    <string name="officer_id">Officer ID</string>
+    <string name="name">Name</string>
+    <string name="xxxxxxxxxx">xxxxxxxxxx</string>
+    <string name="driving_lisence_details">Driving Lisence Details</string>
+    <string name="your_name">Your Name</string>
+    <string name="father_name">Father name</string>
+    <string name="dateofbirth">Dateofbirth</string>
+    <string name="yourcity">YourCity</string>
+    <string name="phonenumber">Phonenumber</string>
+    <string name="emailid">Emailid</string>
+    <string name="add_your_card_details">Add your card details</string>
+    <string name="rasoncarddetails">Rasoncarddetails</string>
+    <string name="drivinglicensedetails">Drivinglicensedetails</string>
+    <string name="votercardnumber">Votercardnumber</string>
+    <string name="adharcardnumber">Adharcardnumber</string>
+    <string name="pancardnumber">pancardnumber</string>
+    <string name="adharcarddetails">Adhar Card Details :</string>
+    <string name="fathername">Fathername</string>
+    <string name="voter_card_details">Voter Card Details:</string>
+    <string name="ration_card_details">Ration Card Details:</string>
+    <string name="pan_card_details">Pan Card Details:</string>
+    <string name="xxxxxxxxxxx">xxxxxxxxxxx</string>
+    <string name="xxxxxx">xxxxxxxxxxx</string>
+    <string name="xyz_gmail_com">xyz@gmail.com</string>
+    <string name="xxxx">xxxxxxxxxxx</string>
+    <string name="xxx">xxxxxxxxxxx</string>
+    <string name="city">City</string>
+    <string name="phonenumber_2">Phonenumber</string>
+    <string name="xx">xxxxxxxxxxx</string>
+    <string name="father_Name">fathername</string>
+    <string name="xyz_Gmail_com">xyz_gmail_com</string>
+    <string name="odi">ODI</string>
+    <string name="digital_vision">Digital Vision</string>
+    <string name="odii">ODI</string>
+    <string name="admin_login">Admin LogIn</string>
+    <string name="admin_id">Admin ID</string>
+    <string name="view">View</string>
+    <string name="request">Request</string>
+    <string name="requests">Requests</string>
+    <string name="scan_the_qr0">Scan The QR</string>
+    <string name="pratap408">Pratap408</string>
+    <string name="pratap_paramanik">Pratap Paramanik</string>
+    <string name="t">---------------------------------------------------------</string>
+    <string name="driving_license_details">Driving License Details:</string>
+    <string name="user_details">User Details</string>
+    <string-array name="Department">
+        <item>Department</item>
+        <item>Traffic Controller</item>
+        <item>Ration Dealer</item>
+        <item>Election Officer</item>
+        <item>Income Tax Officer </item>
+    </string-array>
+</resources>

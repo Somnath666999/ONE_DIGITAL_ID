@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View_Card_Info">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Personal Details"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+
+            android:textSize="33dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="621dp"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="84dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text="Name:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textAlignment="viewStart" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Father"
+                    android:layout_width="114dp"
+                    android:layout_height="38dp"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text="Father's Name:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/babaaa"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/somnath"
+                    android:layout_width="125dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text="Phone number:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textDirection="inherit"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/trap"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="113dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text="E-mail:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/hatii"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/pratap"
+                    android:layout_width="121dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=" City:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/newapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="5dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/lap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text="Aadhar Card Details:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/topol"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/samiran"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text="Pan Card Details:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/fosso"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/sampr"
+                    android:layout_width="152dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text="Voter Card Details:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/alvida"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="7dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/imageyt"
+                    android:layout_width="164dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text="Ration Card Details:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/anuv"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="8dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/gandu"
+                    android:layout_width="166dp"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="9dp"
+                    android:text="Driving License Details:"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/kulti"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="12dp"
+                    android:padding="9dp"
+                    android:text=""
+                    android:textAlignment="viewStart"
+                    android:textStyle="bold" />
+
+            </TableRow>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Officer_LogIn_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="208dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/androidlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="476dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/one_digital_id_15"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:id="@+id/editTextTextPersonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:ems="10"
+                android:importantForAutofill="no"
+                android:text="@string/officer_login"
+                android:textAlignment="center"
+                android:textColor="#8692f7"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                tools:fontFamily="sans-serif"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck"
+                tools:textSize="48sp" />
+
+            <EditText
+                android:id="@+id/officerlogin"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/one_digital_id_15"
+                android:drawablePadding="8dp"
+                android:hint="@string/officer_name"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <EditText
+                android:id="@+id/officerPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints="text"
+                android:background="@drawable/one_digital_id_15"
+                android:drawablePadding="8dp"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Spinner
+                android:id="@+id/Spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints="text"
+                android:background="@drawable/one_digital_id_15"
+                android:padding="8dp"
+                android:spinnerMode="dropdown"
+                android:textColor="@color/black"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+            <Button
+                android:id="@+id/officerloginbutton"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:autofillHints="text"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="#8692f7"
+                android:drawablePadding="8dp"
+                android:onClick="openActivityOP"
+                android:padding="8dp"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Officer_Profile">
+
+
+    <LinearLayout
+        android:layout_width="415dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.347">
+
+        <TextView
+            android:id="@+id/officerprofile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:shadowColor="@color/black"
+            android:text="@string/officer_profile"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="237dp"
+            android:layout_height="222dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:autofillHints="text"
+            android:background="@drawable/one_digital_id_15"
+            android:contentDescription="@string/todo"
+            app:srcCompat="@drawable/ic_baseline_person_24" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="337dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/one_digital_id_15"
+            android:orientation="vertical">
+
+            <TextView
+
+                android:id="@+id/officername"
+                android:layout_width="354dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:autofillHints="text"
+                android:background="@drawable/one_digital_id_15"
+                android:drawablePadding="8dp"
+                android:hint="@string/name"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/officerid"
+                android:layout_width="354dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/one_digital_id_15"
+                android:hint="@string/officer_id"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <TextView
+                android:id="@+id/officerdepartment"
+                android:layout_width="354dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/one_digital_id_15"
+                android:hint="@string/department"
+                android:importantForAutofill="no"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                android:textSize="20sp"
+                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+            <Button
+                android:id="@+id/btn_scan"
+                android:layout_width="255dp"
+                android:layout_height="61dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:autofillHints="text"
+                android:background="@drawable/one_digital_id_15"
+                android:backgroundTint="#8692f7"
+                android:clickable="true"
+                android:drawablePadding="8dp"
+                android:focusable="true"
+                android:padding="8dp"
+                android:text="@string/scan_the_qr"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck,TextContrastCheck,TextContrastCheck,TextContrastCheck" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
